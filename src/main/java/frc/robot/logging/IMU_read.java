@@ -60,6 +60,7 @@ public class IMU_read {
                 .withSize(1, 2)
                 .getEntry();
 
+
     public static void Peroidic() {
         // Data type to grab a 64 bit mumber from Imu
         double AngleX = RobotHardware.Imu.getAngleX();
